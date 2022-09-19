@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.deepBlueBg {
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: grid;
+    place-content: center;
+}
+
+.statCard {
+    background-color: hsl(234, 38%, 16%);
+    border-radius: 8px;
+    height: fit-content;
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.leftDivText {
+    padding: 2em;
+}
+
+.leftDivText h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+.purpleText {
+    color: hsl(277, 64%, 61%);
+}
+
+.leftDivText p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.numberStats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.statDiv {
+    text-align: left;
+}
+
+.statDiv h2 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.statDiv h5 {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 8px;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a:visited {
+    color: hsl(277, 64%, 61%);
+}
+
+.rightDivImage {
+    background-image: url(resources/images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
