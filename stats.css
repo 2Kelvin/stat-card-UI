@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 15px;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .deepBlueBg {
@@ -25,7 +25,7 @@ body {
 }
 
 .leftDivText {
-    padding: 2em;
+    padding: 2em 4em;
 }
 
 .leftDivText h1 {
@@ -57,13 +57,14 @@ body {
 
 .statDiv h5 {
     color: hsla(0, 0%, 100%, 0.6);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     margin-top: 0;
     font-weight: 400;
 }
 
 .attribution {
     font-size: 8px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .attribution a {
